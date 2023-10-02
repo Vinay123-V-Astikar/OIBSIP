@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image: url("my.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: orange;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0px;
+}
+nav ul li a:hover{
+    background-color: aquamarine;
+
+}
+nav ul li .active{
+    background-color: orange;
+}
+.art{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(15vh);
+}
+.art h1{
+    font-size: 36px;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.art p{
+    font-size: 18px;
+    color:grey;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.art .btn{
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: slategray;
+}
